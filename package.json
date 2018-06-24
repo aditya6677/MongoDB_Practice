@@ -1,0 +1,19 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "learning mongo",
+  "main": "adi.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.10",
+    "mongoose": "^5.1.6",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node adi.js"
+  },
+  "author": "aditya76",
+  "license": "ISC"
+}
