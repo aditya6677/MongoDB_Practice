@@ -1,14 +1,13 @@
 var mongoose = require('mongoose');
 var UserSchema = new mongoose.Schema({
-    fname: {
+    uname: {
       type: String,
       required: true,
       trim: true
     },
-    lname: {
+    pass: {
       type: String,
       required: true,
-      trim: true
     }
   });
 
